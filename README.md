@@ -10,7 +10,7 @@ In a Python virtual environment run the following
 
 ```console
 python -m pip install --upgrade pip setuptools wheel
-python -m pip instlal -r binder/requirements.txt
+python -m pip install -r binder/requirements.txt
 ```
 
 ## Additional references
