@@ -21,4 +21,10 @@ python -m pip instlal -r binder/requirements.txt
 # REMOVE:
 
 (Launch Binder build)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyhf/pyhep-2021-notebook-talk/feat/add-first-draft?urlpath=lab/tree/talk.ipynb)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyhf/pyhep-2021-notebook-talk/feat/add-first-draft?filepath=talk.ipynb)
+
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyhf/pyhep-2021-notebook-talk/feat/add-first-draft?urlpath=lab/tree/talk.ipynb)
