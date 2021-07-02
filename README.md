@@ -12,3 +12,13 @@ In a Python virtual environment run the following
 python -m pip install --upgrade pip setuptools wheel
 python -m pip instlal -r binder/requirements.txt
 ```
+
+## Additional references
+
+- [Distributed Inference with `pyhf` and `funcX`](https://github.com/matthewfeickert/distributed-inference-with-pyhf-and-funcX)
+
+
+# REMOVE:
+
+(Launch Binder build)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyhf/pyhep-2021-notebook-talk/feat/add-first-draft?urlpath=lab/tree/talk.ipynb)
