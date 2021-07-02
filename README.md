@@ -13,6 +13,10 @@ python -m pip install --upgrade pip setuptools wheel
 python -m pip install -r binder/requirements.txt
 ```
 
+## Globus account
+
+To use `funcX` you'll need a Globus account
+
 ## Additional references
 
 - [Distributed Inference with `pyhf` and `funcX`](https://github.com/matthewfeickert/distributed-inference-with-pyhf-and-funcX)
