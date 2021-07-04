@@ -29,7 +29,7 @@ and then generate a default `funcX` configuration file and overwrite it with the
 
 ```console
 $ funcx-endpoint configure pyhf
-2021-07-04 15:53:23 endpoint:177 [INFO]  No existing configuration found at /home/$USER/.funcx/config.py. Initializing...
+YYYY-MM-DD HH:MM:SS endpoint:177 [INFO]  No existing configuration found at /home/$USER/.funcx/config.py. Initializing...
 A default profile has been create for <pyhf> at /home/$USER/.funcx/pyhf/config.py
 Configure this file and try restarting with:
     $ funcx-endpoint start pyhf
