@@ -1,4 +1,4 @@
-name: distributed-inference
+name: pyhf-expanse-gpu
 channels:
   - defaults
   - conda-forge
