@@ -35,3 +35,26 @@ Configure this file and try restarting with:
     $ funcx-endpoint start pyhf
 $ cp funcX/expanse-config.py ~/.funcx/config.py
 ```
+
+then startup the endpoint
+
+```console
+$ funcx-endpoint start pyhf
+YYYY-MM-DD HH:MM:SS endpoint.endpoint_manager:173 [INFO]  Starting endpoint with uuid: 12345678-abcd-abcd-abcd-123456789101
+YYYY-MM-DD HH:MM:SS endpoint.endpoint_manager:238 [INFO]  Launching endpoint daemon process
+$ funcx-endpoint list
++---------------+--------+--------------------------------------+
+| Endpoint Name | Status |             Endpoint ID              |
++===============+========+======================================+
+| pyhf          | Active | 12345678-abcd-abcd-abcd-123456789101 |
++---------------+--------+--------------------------------------+
+```
+
+**N.B.:** As this endpoint is going to be persistent after you log off of EXPANSE(!) you'll want to preserve its endpoint ID into a text file that you can save to the machine that will be used at submit time that is ignored from version control
+
+```console
+$ funcx-endpoint list | grep pyhf | awk '{print $(NF-1)}' > endpoint_id.txt
+# From the machine to be used at submit time
+# $ scp EXPANSE:~/pyhep-2021-notebook-talk/endpoint_id.txt .
+# $ echo "endpoint_id.txt" >> .gitignore
+```
