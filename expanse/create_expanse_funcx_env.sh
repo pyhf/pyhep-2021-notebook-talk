@@ -8,5 +8,6 @@ module load anaconda3
 
 conda env create -f expanse-environment.yml
 conda activate pyhf-expanse-gpu
+conda env list
 
 module list
