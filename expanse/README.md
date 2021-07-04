@@ -58,3 +58,7 @@ $ funcx-endpoint list | grep pyhf | awk '{print $(NF-1)}' > endpoint_id.txt
 # $ scp EXPANSE:~/pyhep-2021-notebook-talk/endpoint_id.txt .
 # $ echo "endpoint_id.txt" >> .gitignore
 ```
+
+## Useage
+
+With the `funcx` endpoint up and running on EXPANSE you can now run the `expanse-example.ipynb` example on any computer.
