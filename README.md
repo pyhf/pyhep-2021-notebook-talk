@@ -13,22 +13,10 @@ python -m pip install --upgrade pip setuptools wheel
 python -m pip install -r binder/requirements.txt
 ```
 
-## Globus account
+### Globus account
 
-To use `funcX` you'll need a Globus account
+To use `funcX` requires the use of [Gloubs](https://www.globus.org/) and so will require you to first login to a Globus account to use the `funcx-sdk`. Globus allows authentication through existing organizational logins or through Google accounts or [ORCID iD](https://orcid.org/) so this shouldn't be a barrier to use.
 
 ## Additional references
 
 - [Distributed Inference with `pyhf` and `funcX`](https://github.com/matthewfeickert/distributed-inference-with-pyhf-and-funcX)
-
-
-# REMOVE:
-
-(Launch Binder build)
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyhf/pyhep-2021-notebook-talk/feat/add-first-draft?urlpath=lab/tree/talk.ipynb)
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyhf/pyhep-2021-notebook-talk/feat/add-first-draft?filepath=talk.ipynb)
-
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyhf/pyhep-2021-notebook-talk/feat/add-first-draft?urlpath=lab/tree/talk.ipynb)
