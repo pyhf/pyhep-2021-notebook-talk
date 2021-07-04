@@ -33,7 +33,7 @@ $ funcx-endpoint configure pyhf
 A default profile has been create for <pyhf> at /home/$USER/.funcx/pyhf/config.py
 Configure this file and try restarting with:
     $ funcx-endpoint start pyhf
-$ cp funcX/expanse-config.py ~/.funcx/config.py
+$ cp funcX/expanse-config.py ~/.funcx/pyhf/config.py
 ```
 
 then startup the endpoint
