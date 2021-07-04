@@ -1,0 +1,6 @@
+funcx-endpoint==0.2.3
+funcx==0.2.3
+pyhf[xmlio,contrib]==0.6.2
+ipython==7.25.0
+tblib==1.7.0
+click<8.0.0

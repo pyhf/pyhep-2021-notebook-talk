@@ -3,6 +3,6 @@ module purge
 module restore
 module load cuda
 module load anaconda3
-conda activate distributed-inference
+conda activate pyhf-expanse-gpu
 
 module list

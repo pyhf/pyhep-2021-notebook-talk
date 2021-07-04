@@ -7,7 +7,7 @@ from parsl.addresses import address_by_hostname
 # PLEASE UPDATE user_opts BEFORE USE
 user_opts = {
     "expanse": {
-        "worker_init": "source ~/funcX/setup_expanse_funcx_env.sh",
+        "worker_init": "source ~/pyhep-2021-notebook-talk/expanse/setup_expanse_funcx_env.sh",
         "scheduler_options": "#SBATCH --gpus=1",
     }
 }
