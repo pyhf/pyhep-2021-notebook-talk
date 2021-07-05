@@ -25,7 +25,7 @@ config = Config(
                 init_blocks=1,
                 # string to prepend to #SBATCH blocks in the submit
                 # script to the scheduler eg: '#SBATCH --constraint=knl,quad,cache'
-                scheduler_options=user_opts["expanse"]["scheduler_options"],
+                # scheduler_options=user_opts["expanse"]["scheduler_options"],
                 # Command to be run before starting a worker, such as:
                 # 'module load Anaconda; source activate parsl_env'.
                 worker_init=user_opts["expanse"]["worker_init"],
