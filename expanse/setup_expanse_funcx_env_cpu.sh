@@ -1,10 +1,9 @@
 #!/bin/bash
-echo "Setting up GPU enabled funcX Endpoint for pyhf"
+echo "Setting up CPU enabled funcX Endpoint for pyhf"
 module purge
 module restore
 
-module load gpu/0.15.4
-module load cuda/11.0.2
+module load cpu
 module load anaconda3
 
 conda activate pyhf-expanse-gpu
