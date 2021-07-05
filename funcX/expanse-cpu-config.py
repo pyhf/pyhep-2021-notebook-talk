@@ -23,7 +23,6 @@ config = Config(
                 nodes_per_block=1,
                 max_blocks=4,
                 init_blocks=1,
-                mem_per_node=96,
                 # string to prepend to #SBATCH blocks in the submit
                 # script to the scheduler eg: '#SBATCH --constraint=knl,quad,cache'
                 scheduler_options=user_opts["expanse"]["scheduler_options"],
