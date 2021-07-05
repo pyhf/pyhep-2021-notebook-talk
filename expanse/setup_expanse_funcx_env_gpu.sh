@@ -1,4 +1,4 @@
-echo "Setting up funcX Endpoint for pyhf"
+echo "Setting up GPU enabled funcX Endpoint for pyhf"
 module purge
 module restore
 

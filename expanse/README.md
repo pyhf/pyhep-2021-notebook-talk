@@ -14,7 +14,7 @@ $ bash create_expanse_funcx_env.sh
 This will take a long time as it uses Conda which can be very slow. In the future, the environment can be setup by simply sourcing the setup script
 
 ```console
-$ . expanse/setup_expanse_funcx_env.sh
+$ . expanse/setup_expanse_funcx_env_gpu.sh
 ```
 
 ### `funcX` endpoint
@@ -22,7 +22,7 @@ $ . expanse/setup_expanse_funcx_env.sh
 To generate the `funcX` endpoint first source the environment setup script
 
 ```console
-$ . expanse/setup_expanse_funcx_env.sh
+$ . expanse/setup_expanse_funcx_env_gpu.sh
 ```
 
 and then generate a default `funcX` configuration file and overwrite it with the prepared `funcX/expanse-config.py`
@@ -33,7 +33,7 @@ YYYY-MM-DD HH:MM:SS endpoint:177 [INFO]  No existing configuration found at /hom
 A default profile has been create for <pyhf> at /home/$USER/.funcx/pyhf/config.py
 Configure this file and try restarting with:
     $ funcx-endpoint start pyhf
-$ cp funcX/expanse-config.py ~/.funcx/pyhf/config.py
+$ cp funcX/expanse-gpu-config.py ~/.funcx/pyhf/config.py
 ```
 
 then startup the endpoint
