@@ -62,3 +62,17 @@ $ funcx-endpoint list | grep pyhf | awk '{print $(NF-1)}' > endpoint_id.txt
 ## Useage
 
 With the `funcx` endpoint up and running on EXPANSE you can now run the `expanse-example.ipynb` example on any computer.
+
+## Monitoring
+
+As EXPANSE uses SLURM, you can monitor jobs running with `squeue`
+
+```console
+$ squeue --user $USER
+```
+
+and if you have hung jobs or jobs that you want to kill you can cancel them with `scancel`
+
+```console
+$ scancel --user $USER
+```
