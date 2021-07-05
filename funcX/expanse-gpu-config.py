@@ -7,18 +7,19 @@ from parsl.addresses import address_by_hostname
 # PLEASE UPDATE user_opts BEFORE USE
 user_opts = {
     "expanse": {
-        "worker_init": ". ~/pyhep-2021-notebook-talk/expanse/setup_expanse_funcx_env.sh",
+        "worker_init": ". ~/pyhep-2021-notebook-talk/expanse/setup_expanse_funcx_env_gpu.sh",
         "scheduler_options": "#SBATCH --gpus=1",
     }
 }
 
+# https://www.sdsc.edu/support/user_guides/expanse.html#running
 config = Config(
     executors=[
         HighThroughputExecutor(
             label="Expanse_GPU",
             address=address_by_hostname(),
             provider=SlurmProvider(
-                "gpu",  # Partition / QOS
+                "gpu-shared",  # Partition / QOS
                 account="nsa106",
                 nodes_per_block=1,
                 max_blocks=4,
