@@ -1,3 +1,7 @@
 pyhf[xmlio,contrib]==0.6.2
-funcx-endpoint==0.2.3
-funcx==0.2.3
+click<8.0.0
+# funcx
+funcx-endpoint==0.2.2
+funcx==0.2.2
+# gcp
+aiohttp==3.7.4.post0

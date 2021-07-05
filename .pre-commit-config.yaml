@@ -19,6 +19,11 @@ repos:
     - id: pyupgrade
       args: ["--py37-plus"]
 
+-   repo: https://github.com/pycqa/isort
+    rev: 5.9.1
+    hooks:
+    - id: isort
+
 -   repo: https://github.com/psf/black
     rev: 21.6b0
     hooks:
@@ -32,7 +37,9 @@ repos:
 -   repo: https://github.com/nbQA-dev/nbQA
     rev: 0.13.1
     hooks:
-    - id: nbqa-black
-      additional_dependencies: [black==21.6b0]
     - id: nbqa-pyupgrade
       additional_dependencies: [pyupgrade==2.20.0]
+    - id: nbqa-isort
+      additional_dependencies: [isort==5.9.1]
+    - id: nbqa-black
+      additional_dependencies: [black==21.6b0]
