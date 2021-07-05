@@ -32,6 +32,10 @@ This will take a long time as it uses Conda which can be very slow. In the futur
 $ . expanse/setup_expanse_funcx_env.sh
 ```
 
+## Google Cloud Platform Example
+
+WIP
+
 ## Additional references
 
 - [Distributed Inference with `pyhf` and `funcX`](https://github.com/matthewfeickert/distributed-inference-with-pyhf-and-funcX)
