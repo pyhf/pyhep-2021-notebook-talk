@@ -5,3 +5,5 @@ funcx-endpoint==0.2.2
 funcx==0.2.2
 # gcp
 aiohttp==3.7.4.post0
+# interactive jupyterlab
+ipympl==0.7.0
