@@ -9,6 +9,8 @@ config = Config(
                 init_blocks=1,
                 min_blocks=0,
                 max_blocks=1,
+                nodes_per_block=1,  # default value
+                parallelism=1,  # default value
             ),
         )
     ],
