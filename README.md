@@ -39,9 +39,3 @@ WIP
 ## Additional references
 
 - [Distributed Inference with `pyhf` and `funcX`](https://github.com/matthewfeickert/distributed-inference-with-pyhf-and-funcX)
-
-# REMOVE:
-
-(Launch Binder build)
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyhf/pyhep-2021-notebook-talk/feat/add-explaining-text?urlpath=lab/tree/talk.ipynb)
