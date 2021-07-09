@@ -15,11 +15,10 @@ user_opts = {
 config = Config(
     executors=[
         HighThroughputExecutor(
-            label="Expanse_CPU",
+            label="M2_CPU",
             address=address_by_hostname(),
             provider=SlurmProvider(
-                "shared",  # Partition / QOS
-                account="nsa106",
+                "standard-mem",  # Partition / QOS
                 nodes_per_block=1,
                 max_blocks=4,
                 init_blocks=1,
