@@ -1,0 +1,12 @@
+name: pyhf-funcx
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.7,<3.9
+  - pip
+  - pip:
+    - setuptools
+    - wheel
+    - -r file:core-requirements.txt
+    - -r file:jax-requirements.txt
