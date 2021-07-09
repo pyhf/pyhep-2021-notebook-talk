@@ -103,7 +103,8 @@ def main(args):
     print(workspace)
 
     # execute patch fits across workers and retrieve them when done
-    n_patches = len(patchset.patches)
+    # n_patches = len(patchset.patches)
+    n_patches = 5
     tasks = {}
     for patch_idx in range(n_patches):
         patch = patchset.patches[patch_idx]
