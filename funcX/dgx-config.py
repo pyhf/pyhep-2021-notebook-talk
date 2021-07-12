@@ -5,7 +5,7 @@ from parsl.launchers import SimpleLauncher
 
 user_opts = {
     "dgx": {
-        "worker_init": "pyenv activate pyhf-funcx",
+        "worker_init": ". ${HOME}/code/pyhep-2021-notebook-talk/dgx/worker_env_setup.sh",
     }
 }
 
@@ -19,8 +19,8 @@ config = Config(
                 max_blocks=2,
                 nodes_per_block=1,  # default value
                 parallelism=1,  # default value
-                worker_init=user_opts["dgx"]["worker_init"],
-                launcher=SimpleLauncher(),
+                # worker_init=user_opts["dgx"]["worker_init"],
+                # launcher=SimpleLauncher(),
                 walltime="00:10:00",
             ),
         )
